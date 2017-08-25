@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition name="usersurvey" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/usersurvey.jsp" />
+	</definition>
+	
+	<definition name="corporateinformation" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/corporateinformation.jsp" />
+	</definition>
+	<definition name="traininginformation" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/traininginformation.jsp" />
+	</definition>
+	<definition name="pqrsdatahandling" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/pqrsdatahandling.jsp" />
+	</definition>
+	<definition name="qualityassurance" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/qualityassurance.jsp" />
+	</definition>
+	<definition name="erx" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/erx.jsp" />
+	</definition>
+	<definition name="feedback" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/feedback.jsp" />
+	</definition>
+	<definition name="viewuserreport" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/survey/reviewandsubmit.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

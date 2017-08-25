@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition name="questions" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/question/questions.jsp" />
+	</definition>
+
+	<definition name="question" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/question/question.jsp" />
+	</definition>
+	
+	<definition name="questionadd" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/question/questionadd.jsp" />
+	</definition>
+	
+	<definition name="questionedit" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/question/questionedit.jsp" />
+	</definition>
+	
+</tiles-definitions>

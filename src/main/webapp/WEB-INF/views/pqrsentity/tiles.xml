@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition name="pqrsentitys" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/pqrsentity/pqrsentitys.jsp" />
+	</definition>
+
+	<definition name="pqrsentity" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/pqrsentity/pqrsentity.jsp" />
+	</definition>
+	
+	<definition name="pqrsentityadd" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/pqrsentity/pqrsentityadd.jsp" />
+	</definition>
+	
+	<definition name="pqrsentityedit" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/pqrsentity/pqrsentityedit.jsp" />
+	</definition>
+	
+</tiles-definitions>

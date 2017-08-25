@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	
+	<definition name="viewreport-pqrsentity" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/reports/viewreport-pqrsentity.jsp" />
+	</definition>
+	
+		<definition name="groupreport-pqrsentity" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/reports/groupreport.jsp" />
+	</definition>
+	
+		<definition name="allreport" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/reports/allreport.jsp" />
+	</definition>
+	
+	
+	<definition name="questionandanswer-report" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/reports/questionandanswer.jsp" />
+	</definition>
+
+</tiles-definitions>

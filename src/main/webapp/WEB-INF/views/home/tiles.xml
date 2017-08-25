@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition name="dashboard" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/home/dashboard.jsp" />
+	</definition>
+	
+	<definition name="userhomepage" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/userhomepage.jsp" />
+	</definition>
+	
+	<definition name="ehrdirecthomepage" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/ehrdirecthomepage.jsp" />
+	</definition>
+	
+	<definition name="ehrdsvhomepage" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/ehrdsvhomepage.jsp" />
+	</definition>
+	
+	<definition name="gprohomepage" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/gprohomepage.jsp" />
+	</definition>
+	
+	<definition name="registryhomepage" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/registryhomepage.jsp" />
+	</definition>
+	
+	<definition name="claimshomepage" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/claimshomepage.jsp" />
+	</definition>
+	
+	<definition name="qcdrhomepage" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/qcdrhomepage.jsp" />
+	</definition>
+	
+	<definition name="help" extends="userpage">
+		<put-attribute name="content" value="/WEB-INF/views/home/help.jsp" />
+	</definition>
+	<definition name="reports" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/home/reports.jsp" />
+	</definition>
+	
+	<definition name="report" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/home/report.jsp" />
+	</definition>
+	
+	<definition name="reportsadd" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/home/reportsadd.jsp" />
+	</definition>
+	
+</tiles-definitions>

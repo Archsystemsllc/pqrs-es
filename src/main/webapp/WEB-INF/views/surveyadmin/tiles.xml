@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="surveys" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/surveys.jsp" />
+	</definition>
+
+	<definition name="survey" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/survey.jsp" />
+	</definition>
+	
+	<definition name="surveyadd" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/surveyadd.jsp" />
+	</definition>
+	
+	<definition name="surveyedit" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/surveyedit.jsp" />
+	</definition>
+	
+	
+	<definition name="assigntraining" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/assigntraining.jsp" />
+	</definition>
+	
+	<definition name="assigndatahandling" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/assigndatahandling.jsp" />
+	</definition>
+	
+	<definition name="assignqa" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/assignqa.jsp" />
+	</definition>
+	
+	<definition name="assignerx" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/assignerx.jsp" />
+	</definition>
+	
+	<definition name="assignfeedback" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/assignfeedback.jsp" />
+	</definition>
+	
+	<definition name="sendsurvey" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/sendsurvey.jsp" />
+	</definition>
+	
+	<definition name="sendemail" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/surveyadmin/sendemail.jsp" />
+	</definition>
+</tiles-definitions>
